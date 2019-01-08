@@ -1,0 +1,128 @@
+@import "./component/rester.scss";
+@import "./component/header.scss";
+@import "./component/footer.scss";
+@import "./component/item.scss";
+.wrap {
+    min-height: 450px;
+    padding-top: 110px;
+}
+.product-con {
+    max-width: 1480px;
+    margin: 50px auto 20px;
+}
+.breadcrumb {
+    font-size: 1.4rem;
+    color: #b2b2b2;
+    height: 26px;
+    line-height: 26px;
+    padding-left: 20px;
+}
+.breadcrumb b {
+    font-weight: bold;
+    color: #333;
+}
+.choose-type {
+    margin-left: 32px;
+    line-height: 1;
+    display: inline-block;
+}
+.choose-type-con {
+    display: inline-block;
+}
+.choose-type-con a {
+    display: inline-block;
+    margin: 0 8px;
+    border: 1px solid #f99302;
+    padding: 5px 8px;
+    font-size: 1.4rem;
+    color: #f99302;
+}
+.choose-type-con a span {
+    float: right;
+    margin-left: 5px;
+    font-size: 1.2rem;
+}
+.choose-type .clean {
+    color: #666;
+    margin-left: 15px;
+}
+.product-filter {
+    max-width: 1420px;
+    border: 1px solid #f0f0f0;
+    margin: 0 auto;
+    font-size: 1.4rem;
+    padding: 10px 30px;
+}
+.product-filter .product-filter-li:first-child {
+    border: none;
+}
+.product-filter .choosetitle {
+    display: inline-block;
+    color: #000;
+    width: 65px;
+    text-align: justify;
+    text-align-last: justify;
+    margin-right: 40px;
+    vertical-align: top;
+    padding: 20px 0;
+}
+.product-filter .product-filter-li ul {
+    height: 32px;
+    width: 855px;
+    display: inline-block;
+    padding: 10px 0;
+    overflow: hidden;
+}
+.product-filter .product-filter-li ul li {
+    width: 78px;
+    white-space: nowrap;
+    display: inline-block;
+    padding: 10px 10px;
+}
+.product-filter .product-filter-li ul li a {
+    color: #666;
+    display: block;
+    width: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.product-filter .product-filter-li ul li a:hover {
+    color: #f99302;
+}
+.product-filter-more {
+    display: inline-block;
+    vertical-align: top;
+    font-size: 1.4rem;
+    color: #666;
+    cursor: pointer;
+    padding: 20px 0;
+}
+.mall-con {
+	width: 1180px;
+    max-width: 1500px;
+    min-width: 1180px;
+    margin: 0 auto;
+    margin-top: 62px;
+    margin-bottom: 62px;
+}
+.product-sorting {
+    padding: 20px 0;
+    background-color: #f7f7f7;
+    max-width: 1480px;
+    margin: 0 auto;
+    margin-bottom: 25px;
+}
+.product-sorting li {
+    font-size: 1.4rem;
+    color: #333333;
+    padding: 0 22px;
+    display: inline-block;
+}
+.product-sorting .cruu a {
+    color: #f99302;
+}
+.product-sorting a {
+    color: #333333;
+}
+

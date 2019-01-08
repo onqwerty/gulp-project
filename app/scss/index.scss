@@ -1,0 +1,181 @@
+@import "./component/rester.scss";
+@import "./component/header.scss";
+@import "./component/footer.scss";
+.banner {
+	width:100%;
+	margin:0 auto; 
+	overflow:hidden; 
+	position:relative;
+	margin-top: 110px;
+	height:525px;
+}
+.banner ul li{
+	height:525px;
+	opacity: 0;
+	position: absolute;
+	left: 0;
+	top: 0;
+	z-index: 0;
+}
+.banner ul li img{
+	width:100%;
+	height:525px;
+}
+.banner ul li.ac{
+	z-index: 5;
+}
+.banner ol {
+	position:absolute;
+	left: 50%;
+	bottom: 10px;
+	margin-left: -50px;	
+	z-index:6	
+}
+.banner ol li{
+	width: 10px;
+	height: 10px;
+	border-radius: 50%;
+	background: #808080;
+	margin-left: 10px;
+	float: left;
+	line-height: 20px;
+	cursor: pointer;
+}
+.banner ol li.ac{
+	background: #F99302;
+}
+.main{
+	width:100%;
+	background:#0d0d0d;
+	padding-bottom: 80px;
+}
+.main .con{
+	width:97%;
+	height:600px;
+	margin: 0 auto;
+	padding-top: 20px;
+	padding-bottom: 25px;
+}
+.effect{
+	position:relative;
+	float:left;
+}
+.effect a{
+	display: inline-block;
+	width:600px;
+	height:600px;
+}
+.effect img{
+	width:600px;
+	height:600px;
+	float:left;
+}
+.effect span{
+	position:absolute;
+	left:0;
+	bottom:0;
+	width:600px;
+	height:80px;
+	line-height:80px;
+	text-align: center;
+	display:none;
+}
+.effect h2{
+	color: #fff;
+	font-size: 20px;
+}
+.effect a:hover span{
+	display:block;
+	background:rgba(0,0,0,0.6); 
+}
+.zoe{
+	float:right;
+	height:600px;
+	width:600px;
+}
+.effect-top{
+	position:relative;
+}
+.effect-top a{
+	display: inline-block;
+	width:600px;
+	height:287px;
+}
+.effect-top img{
+	width:600px;
+	height:287px;
+}
+.effect-top span{
+	position:absolute;
+	left:0;
+	bottom:0;
+	width:600px;
+	height:80px;
+	line-height:80px;
+	text-align: center;
+	display:none;
+}
+.effect-top h2{
+	color: #fff;
+	font-size: 20px;
+}
+.effect-top a:hover span{
+	display:block;
+	background:rgba(0,0,0,0.6); 
+}
+.effect-bottom{
+	position:relative;
+	bottom:-25px;
+}
+.effect-bottom a{
+	display: inline-block;
+	width:600px;
+	height:287px;
+}
+.effect-bottom img{
+	width:600px;
+	height:287px;
+}
+.effect-bottom span{
+	position:absolute;
+	left:0;
+	bottom:0;
+	width:600px;
+	height:80px;
+	line-height:80px;
+	text-align: center;
+	display:none;
+}
+.effect-bottom h2{
+	color: #fff;
+	font-size: 20px;
+}
+.effect-bottom a:hover span{
+	display:block;
+	background:rgba(0,0,0,0.6); 
+}
+.recommend{
+	width:97%;
+	height: 315px;
+	margin-left:auto;
+	margin-right: auto;
+	display: flex;
+	justify-content: space-between;
+}
+.recommend-list{
+	width:390px;
+	height:315px;
+}
+.recommend-list img{
+	width:390px;
+	height:245px;
+}
+.recommend-list h2{
+	width:390px;
+	height:70px;
+	background:#1a1a1a;
+	text-align:center;
+	line-height:70px;
+	font-size:2.4rem;
+	color:#fff;
+}

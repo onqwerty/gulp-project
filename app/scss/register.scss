@@ -1,0 +1,124 @@
+@import "./component/rester.scss";
+@import "./component/header.scss";
+@import "./component/footer.scss";
+.wrap {
+    min-height: 450px;
+    padding-top: 110px;
+}
+.register {
+    width: 460px;
+    margin: 100px auto;
+    text-align: center;
+}
+.data-table h2 {
+    font-size: 3rem;
+    color: #333;
+    margin-bottom: 28px;
+}
+.data-table input {
+    width: 398px;
+    height: 48px;
+    border: 1px solid #cccccc;
+    padding: 0 30px;
+    color: #333;
+    font-size: 1.4rem;
+    margin: 12px 0;
+}
+.register input{
+    border-radius: 5px;
+    outline: none;
+}
+.data-table .phone {
+    padding: 12px 0;
+}
+.data-table .phone span {
+    display: inline-block;
+    width: 115px;
+    height: 48px;
+    line-height: 50px;
+    text-align: center;
+    font-size: 1.4rem;
+    color: #333333;
+    border: 1px solid #ccc;
+    margin-right: 24px;
+    border-radius: 5px;
+}
+.data-table .phone input {
+    width: 257px;
+    margin: 0;
+}
+.count {
+    zoom: 1;
+    padding: 12px 0;
+}
+.data-table .count input {
+    width: 126px;
+    margin: 0;
+    float: left;
+    display: inline-block;
+    vertical-align: top;
+}
+.data-table .count span {
+    width: 178px;
+    height: 48px;
+    border: 1px solid #ccc;
+    background-color: #f0f0f0;
+    line-height: 50px;
+    font-size: 3rem;
+    color: #333;
+    margin: 0 20px;
+    display: inline-block;
+    vertical-align: top;
+}
+.data-table .count a {
+    font-size: 1.4rem;
+    color: #f99302;
+    line-height: 50px;
+    display: inline-block;
+    vertical-align: top;
+}
+.statement {
+    text-align: left;
+    margin: 8px 0;
+}
+.statement b {
+    cursor: pointer;
+    background: url(/static/images/read.png) no-repeat;
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+.statement a {
+    display: inline-block;
+    font-size: 1.2rem;
+    color: #808080;
+}
+.register-btn{
+    margin: 0;
+    margin-top: 32px;
+    display: inline-block;
+    width: 460px;
+    height: 50px;
+    font-size: 1.4rem;
+    cursor: pointer;
+    background-color: #f99302;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+}
+.register p {
+    font-size: 1.4rem;
+    color: #333;
+    margin: 20px 0;
+}
+.register p a {
+    color: #f99302;
+}
+.prompt {
+    display:none;
+    color: red !important;
+    text-align: left !important;
+    margin: 10px 0 0 20px !important;
+}

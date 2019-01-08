@@ -1,0 +1,30 @@
+/*===css rester start===*/
+html,body,p,div,ul,ol,li,i,span,em,strong,a,abbr,article,address,aside,audio,blockquote,canvas,caption,cite,
+code,dl,dt,dd,del,fieldset,figcaption,figure,footer,form,h1,h2,h3,h4,h5,h6,iframe,nav,pre,ins,label,legend,
+map,mark,object ,optgroup,option,q,section,video,table,tr,td,thead,tbody{margin: 0;padding:0;}
+a,button,input,button{-webkit-tap-highlight-color:rgba(0,0,0,0);}
+html{font-size: 10px;}
+body {font-family: "Microsoft YaHei", "Arial";line-height: 1;color: #fff;-webkit-overflow-scrolling:touch;}
+h1,h2,h3,h4,h5,h6 {font-weight: normal;}
+img {display: block;max-width: 100%;margin: 0 auto;border:none;vertical-align: middle;}
+b,strong {font-weight: normal;}
+a { color: #fff;text-decoration: none;-webkit-transition: all 0.2s linear;transition: all 0.2s linear;}
+a:link {text-decoration: none;}
+a:visited {text-decoration: none;}
+a:hover {text-decoration: none;-webkit-transition: all 0.2s linear;transition: all 0.2s linear;}
+a:active {text-decoration: none;}
+ul,ol{list-style: none;}
+i{font-style: normal;}
+input,button {font-family: "Microsoft YaHei", "Arial";border: none;outline: none;}
+select {outline: none;}
+button {cursor: pointer;background-color: #f99302;color: #fff;font-size: 1.4rem;border-radius: 4px;}
+button:hover{background-color: #faa935;}
+input[type="button"], input[type="submit"], input[type="reset"] {-webkit-appearance: none;}
+input,select,textarea{-webkit-appearance:none; /*åŽ»é™¤inputé»˜è®¤æ ·å¼*/}
+input::-webkit-outer-spin-button,input::-webkit-inner-spin-button{-webkit-appearance: none !important;}/*åŽ»é™¤inputé»˜è®¤ç®­å¤´*/
+.clearfloat:after{content:"\200B";display:block;height:0;clear:both;} 
+.clearfloat{zoom:1} 
+
+.fl{float:left;}
+.fr{float:right;}
+h1,h2,h3{color: #333;}

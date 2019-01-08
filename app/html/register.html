@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" type="text/css" href="/css/register.css">
+</head>
+<body>
+	<header></header>
+	<div class="wrap">
+		<div class="register data-table">
+			<h2>注册</h2>
+			<p class="prompt">* 昵称不能为空</p>
+			<input type="text" placeholder="请输入昵称" id="username">
+			<p class="prompt">* 手机号不能为空</p>
+			<div class="phone">
+				<span class="fl">+ 86</span>
+				<input type="text" placeholder="请输入手机号码" id="phone">
+			</div>
+			<div class="count">
+				<input type="text" name="jscode" placeholder="请输入右边算法结果" id="jscode">
+				<span id="countCode">
+					<img id="change-count" src="/static/images/verify.png" alt="点击换一张">
+				</span>
+				<a href="javascript:;" class="change-count">换一张</a>
+			</div>
+			<p class="prompt">* 密码不能为空</p>
+			<input type="password" placeholder="请输入6至16位密码" id="password">
+			<p class="prompt">* 密码错误</p>
+			<input type="password" placeholder="请重复输入6至16位密码" id="repassword">
+			<div class="statement">
+				<b class="fl"></b>
+				<a href="javascript:;">我已阅读并同意《361°商城协议》</a>
+			</div>
+			<button class="register-btn" id="register-btn">立即注册</button>
+			<p>已有361°商城账号？<a href="/html/login.html">立即登录</a></p>
+		</div>
+	</div>
+	<footer></footer>
+	<script type="text/javascript" src="/libs/require/require.js" data-main="/js/register.js"></script>
+</body>
+</html>

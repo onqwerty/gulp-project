@@ -1,0 +1,220 @@
+header{
+	background-color: #0d0d0d;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 9999999;
+}
+.header{
+	max-width: 1480px;
+    min-width: 1180px;
+    height: 110px;
+    margin: 0 auto;
+    position: relative;
+}
+header .area{
+	background: url(/static/images/area.jpg) right no-repeat;
+    margin-right: 20px;
+   	float: right;
+    font-size: 1.4rem;
+    color: #b2b2b2;
+    padding: 0 28px;
+    margin-top: 12px;
+}
+
+header .logo{
+	padding-left: 20px;
+	display: inline-block;
+	margin-top: 29px;
+}
+header .lg{
+	width: 55px;
+	height: auto;
+    padding-left: 20px;
+	display: inline-block;
+	margin-top: 16px;
+}
+header .nav{
+	position: absolute;
+    bottom: 0;
+    top: 65px;
+    left: 0;
+    width: 100%;
+}
+.nav ul{
+	width: 285px;
+	height: 40px;
+	margin: 0 auto;
+}
+.nav li{
+	height: 38px;
+	border-color: #F99302;
+	float: left;
+	padding: 0 18px;	
+}
+.nav li a{
+	border-bottom: 2px solid transparent;
+	padding-bottom: 24px;
+	display: inline-block;
+    font-size: 1.4rem;
+    color: #fff;
+}
+.nav li:nth-child(1) a:link{
+	border-color: #F99302;	
+}
+.nav li:nth-child(2) a:hover{
+	border-color: #F99302;	
+}
+.nav li:nth-child(3) a:hover{
+	border-color: #F99302;	
+}
+.nav li:nth-child(4) a:hover{
+	border-color: #F99302;	
+}
+
+.nav-right{
+	width:320px;
+	height:30px;
+	float: right;
+	margin-right: -90px;   
+	margin-top: 60px;
+	position: relative;	    
+}
+.search,.personal{
+	float: left;
+}
+.search input{
+	height: 30px;
+	width: 225px;
+	padding-left: 15px;
+	box-sizing: border-box;
+	border-radius: 20px;
+	outline: none;
+	border: 0;
+	background: #0D0D0D;
+	border: 1px solid white;
+	color: white;
+}
+.nav-right .search-input{
+	width:20px ;
+	height: 20px;
+	background: url(/static/images/search.png) no-repeat center;
+	position: absolute;
+	left:195px;
+	top:5px;
+	border: 0;
+	outline: none;
+	cursor: pointer;
+}
+.nav-right .personal{
+	display: inline-block;
+	position: relative;
+	margin-left: 20px;
+	margin-right: 17px;
+}
+.nav-right .personal-img{
+	display: inline-block;
+	width:20px ;
+	height: 20px;
+	background: url(/static/images/personal.png) no-repeat center;
+	position: absolute;
+	top:5px;	
+}
+.nav-right .shopping{
+	display: inline-block;
+	width:20px ;
+	height: 20px;
+	background: url(/static/images/shopping.png)no-repeat center;
+	position: relative;
+	top: 5px;
+	float: right;
+}
+.shopping span{
+	width: 16px;
+	height: 16px;
+	border-radius:50% ;
+	text-align: center;
+	background: #f99302;
+	color: white;
+	position: absolute;
+	left: 10px;
+	top: -5px;
+	display: inline-block;
+	
+}
+.shoppingCart{
+	position: absolute;
+    top: 110px;
+    right: 20px;
+    width: 359px;
+    overflow: hidden;
+    background-color: #fff;
+    border-radius: 4px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+    display:none;
+}
+.no-shopping{
+	text-align: center;
+    padding: 0 25px;
+}
+.no-shopping h2 {
+    font-size: 1.6rem;
+    padding: 40px 0;
+    border-bottom: 1px solid #F0F0F0;
+    margin-bottom: 20px;
+}
+.no-shopping button {
+    width: 100%;
+    height: 42px;
+    font-size: 1.6rem;
+    font-weight: bold;
+    margin-bottom: 25px;
+    cursor: pointer;
+    background-color: #f99302;
+    color: #fff;
+    border-radius: 4px;
+    outline: none;
+    border: 0;
+}
+
+.mall-nav {
+    width: 100%;
+    position: absolute;
+    box-shadow: rgba(4, 0, 0, 0.2) 0px 6px 15px 0px;
+    background: white;
+    overflow: hidden;
+    z-index: 21;
+    top:110px;
+    display: none;
+}
+.mall-nav-con {
+    display: table;
+    margin: 0 auto;
+    min-width: 1000px;
+}
+.mall-nav-con .mall-nav-tit {
+    min-height: 290px;
+    border-right: 1px solid #f0f0f0;
+}
+.mall-nav-con ul {
+    display: inline-block;
+    vertical-align: top;
+    padding: 40px 40px 0;
+}
+.mall-nav-con ul li {
+    font-size: 1.4rem;
+    color: #333;
+}
+.mall-nav-con ul li a {
+    color: #333;
+}
+.mall-nav-con ul li a:hover {
+    color: #f99302;
+}
+.mall-nav-con li {
+    padding: 11px 0;
+}
+.mall-nav-con .mall-nav-tit2{
+    font-weight: bold;
+}

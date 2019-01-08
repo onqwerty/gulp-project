@@ -1,0 +1,26 @@
+<div class="rap">
+	 <script type="text/html" id="list-template">
+		{{each list item i}}
+
+		<div class="commodity">
+			<div class="commodity-div">
+				<a href="/html/detail.html?id={{ item.id }}"><img src="{{item.img}}" alt=""></a>
+				<div class="commodity-position" style="margin-top:15px;">
+				   <div id="myscroll" class="commodity-strong clearfloat">
+						<ul>
+							{{each list.images item i}}
+								<li><img  src="{{item.images[i]}}" alt=""></li>
+								
+							{{/each}}					
+						</ul>
+					</div>
+				</div>						
+				<div>
+					<h3>{{item.title}}</h3>
+					<p>{{item.price}}</p>
+				</div>
+			</div>
+		</div>
+		{{/each}}
+		</script>
+</div>
