@@ -1,4 +1,4 @@
-<div class="rap">
+<div class="rap" id="rap2">
 	 <script type="text/html" id="list-template">
 		{{each list item i}}
 
@@ -6,18 +6,17 @@
 			<div class="commodity-div">
 				<a href="/html/detail.html?id={{ item.id }}"><img src="{{item.img}}" alt=""></a>
 				<div class="commodity-position" style="margin-top:15px;">
-				   <div id="myscroll" class="commodity-strong clearfloat">
+				   <div class="commodity-strong clearfloat">
 						<ul>
-							{{each list.images item i}}
-								<li><img  src="{{item.images[i]}}" alt=""></li>
-								
-							{{/each}}					
+							{{each item.images img i}}
+							<li><img  src="{{img}}" alt=""/></li>	
+							{{/each}}
 						</ul>
 					</div>
 				</div>						
 				<div>
 					<h3>{{item.title}}</h3>
-					<p>{{item.price}}</p>
+					<p>¥{{item.price}}</p>
 				</div>
 			</div>
 		</div>

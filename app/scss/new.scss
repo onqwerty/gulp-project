@@ -1,0 +1,217 @@
+@import "./component/rester.scss";
+@import "./component/header.scss";
+@import "./component/footer.scss";
+.wrap{
+	min-height: 450px;
+	padding-top: 110px;
+}
+.new {
+    background: url(/static/images/bg.jpg) no-repeat top;
+    padding-bottom: 120px;
+}
+.new-slide {
+    position: relative;
+    width: 45%;
+    display: inline-block;
+    height: 800px;
+}
+.new-slide .slides-con {
+    height: 800px;
+}
+.new-tit-con {
+    width: 70%;
+    line-height: 1.5;
+    padding: 29px 0;
+    padding-left: 20%;
+    padding-right: 10%;
+    cursor: pointer;
+}
+.new-tit-con h3 {
+    font-size: 1.4rem;
+    color: #333;
+    border-radius: 5px;
+}
+.new-tit-con h2 {
+    font-size: 2.4rem;
+    color: #000;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.new-tit-con p {
+    height: 38px;
+    font-size: 1.4rem;
+    color: #666;
+    overflow: hidden;
+}
+.new-tit-selected {
+    background-color: #fff;
+}
+.new-paging {
+    display: table;
+    margin: 25px auto;
+}
+.new-paging .retreat {
+    border-radius: 50px 0 0 50px;
+    border-right: none;
+}
+.new-paging .retreat{
+    width: 33px;
+    height: 33px;
+    float: left;
+    background: #fff;
+    text-align: center;
+    line-height: 33px;
+    font-size: 1.8rem;
+    border: 1px solid #f0f0f0;
+    color: #b3b3b3;
+}
+.new-paging ul {
+    float: left;
+    border: 1px solid #f0f0f0;
+}
+.new-paging li:first-child {
+    border: none;
+}
+.new-paging li {
+    float: left;
+    text-align: center;
+    background-color: #fff;
+}
+.new-paging .select a {
+    color: #f99302;
+}
+.new-paging li a {
+    display: block;
+    width: 33px;
+    height: 33px;
+    line-height: 33px;
+    font-size: 1.4rem;
+}
+.new-paging li {
+    float: left;
+    text-align: center;
+    border-left: 1px solid #f0f0f0;
+    background-color: #fff;
+}
+.new-paging li a {
+    display: block;
+    color: #333;
+    width: 33px;
+    height: 33px;
+    line-height: 33px;
+    font-size: 1.4rem;
+}
+.new-paging .next {
+    border-radius: 0 50px 50px 0;
+    border-left: none;
+}
+.new-paging .next {
+    width: 33px;
+    height: 33px;
+    float: left;
+    background: #fff;
+    text-align: center;
+    line-height: 33px;
+    font-size: 1.8rem;
+    border: 1px solid #f0f0f0;
+    color: #b3b3b3;
+}
+
+
+.new-detailed {
+    display: inline-block;
+    width: 39%;
+    height: 760px;
+    padding: 50px 0;
+    padding-left: 4%;
+    padding-right: 2%;
+    vertical-align: top;
+    background-color: #fff;
+    position: relative;
+    z-index: 2;
+    margin-left: -5px;
+    text-align: center;
+}
+.mCustomScrollBox {
+    position: relative;
+    overflow: hidden;
+    height: 100%;
+    max-width: 100%;
+    outline: 0;
+    direction: ltr;
+}
+.mCSB_inside>.mCSB_container {
+    margin-right: 50px;
+}
+.mCSB_container {
+    overflow: hidden;
+    width: auto;
+    height: auto;
+}
+.new-detailed h2 {
+    font-size: 2.4rem;
+    color: #333;
+    line-height: 1.6;
+}
+.new-detailed h3 {
+    color: #333;
+    margin-top: 20px;
+    margin-bottom: 60px;
+    font-size: 1.4rem;
+}
+.new-detailed p {
+    color: #666;
+    line-height: 1.8;
+    text-align: left;
+    font-size: 1.4rem;
+}
+.new-detailed .imgnomargin img {
+    margin: 0px auto;
+}
+.mCSB_scrollTools {
+    position: absolute;
+    width: 16px;
+    height: auto;
+    left: auto;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    opacity: .75;
+}
+.mCSB_scrollTools .mCSB_draggerContainer {
+    height: 337px;
+    margin-top: 200px;
+}
+.mCSB_scrollTools .mCSB_draggerContainer {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+}
+.mCSB_scrollTools .mCSB_dragger {
+    cursor: pointer;
+    width: 100%;
+    z-index: 1;
+}
+.mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar {
+    background-color: #f99302 !important;
+}
+.mCSB_scrollTools .mCSB_draggerRail {
+    background-color: #e6e6e6;
+}
+.mCSB_scrollTools .mCSB_draggerRail {
+    width: 2px;
+    height: 100%;
+    margin: 0 auto;
+    border-radius: 16px;
+}
+.mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar {
+    position: relative;
+    width: 4px;
+    height: 100%;
+    margin: 0 auto;
+    border-radius: 16px;
+    text-align: center;
+}

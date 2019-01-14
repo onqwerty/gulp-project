@@ -1,6 +1,15 @@
 require(["./requirejs.config"],() =>{
-	require(["jquery","header","footer"],() =>{
-		
+	require(["jquery","header","footer","cookie"],() =>{
+		//取到用户名
+		// zs();
+		// function zs(){
+		// 	$.cookie.json = true; //转json格式
+		// 	let $username = $.cookie("user").username;
+		// 	$(".personal-img").css({display:"none"});
+		// 	$(".personal").append($username);
+		// }
+
+		//轮播图
 		let $btns = $("#banner ol li");
 		let $imgs = $("#banner ul li");
 		let index = 0;

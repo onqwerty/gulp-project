@@ -49,7 +49,7 @@ define(["jquery"],() =>{
 							
 			})
 		}
-		
+				
 	}
 	return new Header();
 })

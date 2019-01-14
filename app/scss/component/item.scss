@@ -24,6 +24,9 @@
     position: relative;
     display: none;
 }
+.commodity:hover .commodity-position {
+    display: block;
+}
 .commodity-strong {
     margin-top: 8px;
     display: block;
@@ -58,6 +61,7 @@
 .commodity p {
     color: #f99302;
     padding: 15px 0 30px;
+    font-size: 1.8rem;
 }
 .commodity-div {
     position: absolute;
@@ -66,4 +70,10 @@
     background-color: #fff;
     transition: box-shadow 0.4s ease-in-out, transform 0.4s ease-in-out;
     border-radius: 5px;
+}
+.commodity:hover .commodity-div {
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+    transform: translate(0,-5px);
+    border-color: transparent;
+    z-index: 89;
 }

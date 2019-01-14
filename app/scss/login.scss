@@ -30,6 +30,9 @@
     text-align: left;
     margin: 8px 0;
 }
+.statement .read {
+    background: url(/static/images/read2.png) no-repeat;
+}
 .statement b {
     cursor: pointer;
     background: url(/static/images/read.png) no-repeat;

@@ -7,7 +7,8 @@ require.config({
 		"footer":"/js/component/footer",
 		"item":"/js/component/item",
 		"url":"/js/component/url",
-		"template":"/libs/template-web"
+		"template":"/libs/template-web",
+		"tools":"/libs/tools"
 		
 	},
 	shim:{

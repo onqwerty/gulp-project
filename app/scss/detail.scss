@@ -81,6 +81,36 @@
     max-width: 486px;
 }
 
+.tb-pic span{
+    width: 243px;
+    height: 243px;
+    background: rgba(255,255,0,.3);
+    position: absolute;
+    left:0;
+    top:0;
+    display: none;
+    cursor: move;
+}
+.big{
+    width: 412px;
+    height: 412px;
+    position: absolute;
+    left: 665px;
+    top: 218px;
+    overflow: hidden;
+    display: none;
+    z-index:10;
+}
+.big img{
+    width:800px;
+    height:800px;
+    position: absolute;
+}
+
+
+
+
+
 
 .pvxc_right {
     width: 549px;
@@ -126,7 +156,7 @@
 }
 .discount-con span:first-child {
     font-size: 1.4rem;
-    color: #333;
+    color: gray;
 }
 .discount-con span a {
     color: #b2b2b2;

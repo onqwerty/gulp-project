@@ -7,36 +7,39 @@
 </head>
 <body>
 	<header></header>
-	<div class="wrap">
+	<div class="wrap" id="product">
+		<script type="text/html" id="detail-template">
 		<div class="product-con">
 			<div class="breadcrumb breadcrumb-product">
 				<span>所有分类</span>&gt;
 				<a href="/">首页</a>&gt;
 				<a href="javascript:void(0)">商品列表</a>&gt;
-				<b>翻领短T恤</b>
+				<b>{{detail.title}}</b>
 			</div>
 			<div class="pv_xc">
 				<div class="pvxc_left">
 					<div id="piclist" data-dcolor="">
 						<div class="smallpic">
-							<a class="selected"><img src="/static/images/m_5b8354b1251d9.jpg"></a>
-							<a class=""><img src="/static/images/m_5b8354b16bc94.jpg"></a>
-							<a class=""><img src="/static/images/m_5b8354b1b634f.jpg"></a>
-							<a><img src="/static/images/m_5b8354b21158c.jpg"></a>
+							{{each detail.images_4m s_img i}}
+							<a class="selected"><img src="{{s_img}}"></a>
+							{{/each}}
 						</div>
 						<div class="bigpic fr">
 							<div class="tb-booth tb-pic tb-s310">
-								<img src="/static/images/5b8354b1251d9.jpg" class="jqzoom" alt="" style="cursor: crosshair;">
+								<img src="{{detail.img}}" class="jqzoom" alt="" style="cursor: crosshair;">
 								<span class="picfd"></span>
+							</div>
+							<div class="big">
+								<img src="{{detail.img}}" id="bigImg">
 							</div>
 						</div>
 					</div>
 				</div>
 				<div class="pvxc_right">
-					<h2>翻领短T恤<em>(551823153)</em></h2>
-					<h3>￥159.00</h3>
+					<h2>{{detail.title}}<em>({{detail.no}})</em></h2>
+					<h3>￥{{detail.price}}</h3>
 					<div class="discount-con">
-						<span>原价:<b>159.00</b></span>
+						<span>原价:<b>{{detail.price}}</b></span>
 						<span>
 							运费: 不包邮	
 							<a class="postage-express-btn" href="javascript:void(0);">( 运费详情 ) </a>
@@ -44,18 +47,14 @@
 					</div>
 					<p class="product-color">
 						颜色分类
-						<span>黑陶花灰</span>
+						<span>{{detail.Colour}}</span>
 					</p>
 					<ul class="product-color-choice">
-						<li class="select" data-color="黑陶花灰">
-							<img title="黑陶花灰" id="color_id" src="/static/images/s_5b8354b1251d9.jpg">
+						{{each detail.images m_img i}}
+						<li class="select" data-color="{{detail.Colour}}">
+							<img title="{{detail.Colour}}" id="color_id" src="{{m_img}}">
 						</li>
-						<li data-color="本白">
-							<img title="本白" id="color_id" src="/static/images/s_5b8354b266c7d.jpg">
-						</li>
-						<li data-color="磁铁花灰">
-							<img title="磁铁花灰" id="color_id" src="/static/images/s_5b8354b39f4a3.jpg">
-						</li>
+						{{/each}}
 					</ul>
 					<div class="product-size">
 						<button data-size="" data-count="" class="size">尺码选择   +</button>
@@ -85,7 +84,7 @@
 				</div>
 			</div>
 		</div>
-		
+	</script>
 		<div class="product-details"></div>
 	</div>
 	<footer></footer>
